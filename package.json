@@ -1,5 +1,5 @@
 {
-  "name": "simple-component-library",
+  "name": "modalreact",
   "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -44,6 +44,6 @@
   "files": [ "dist", "README.md" ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/RoiVegetto/modalreact"
   }
 }
