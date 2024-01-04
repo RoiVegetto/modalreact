@@ -14,9 +14,9 @@ const Modal = ({ show, onClose, children }) => {
 
     return (
         <div className="modal-backdrop" onClick={handleBackdropClick}>
-            <div className="modal">
+            <div className="modal" onClick={e => e.stopPropagation()}>
+                <button className="close-button" onClick={onClose}>&times;</button>
                 {children}
-                <button onClick={onClose}>Fermer</button>
             </div>
         </div>
     );
